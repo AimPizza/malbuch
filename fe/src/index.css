@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* https://lospec.com/palette-list/blessing */
+  --color-brand-bg: #74569b;
+  --color-brand-fg: #ffb3cb;
+  --color-brand-alt: #f7ffae;
+  --color-brand-destructive: #ff8787;
+  --popover: var(--color-brand-alt);
+}
+
+.border-brand {
+  @apply border-2;
+}
+
+.icon-btn {
+  @apply shadow-md;
+  @apply rounded-full;
+  @apply active:shadow-inner;
+  @apply p-2;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  background-color: var(--color-brand-bg);
+}

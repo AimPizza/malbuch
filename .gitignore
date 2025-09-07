@@ -1,0 +1,8 @@
+.direnv
+node_modules
+dist
+target
+content
+image-metadata.json
+*.code-workspace
+.idea
