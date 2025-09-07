@@ -1,11 +1,11 @@
 # Malbuch
 
-<!-- ![screenshot of the application](./docs/screenshot-09-2025.png) -->
-
 Aka coloring book.
 
 A simple gallery/timeline to collect images.
 This is meant to be a place where you can collect (among other things) pixel art you created.
+
+<img src="https://raw.githubusercontent.com/AimPizza/malbuch/e9379767ba9cd060bc11cfe5a030c235ae1d5d80/docs/screenshot-09-2025.png" height="400">
 
 Currently only file upload and deletion is supported.
 
